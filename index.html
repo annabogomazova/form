@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form action="#" method="post">
+    <label for="username">Ваше имя
+        <input id="username" name="username" type="text" placeholder="Введите имя" required>
+    </label>
+    <label for="message">Сообщение
+        <textarea id="message" name="message" rows="4" placeholder="Введите сообщение..."></textarea>
+    </label>
+    <label for="options">Выберите вариант
+        <select id="options" name="options">
+            <option value="">— выберите —</option>
+            <option value="1">Вариант 1</option>
+            <option value="2">Вариант 2</option>
+            <option value="3">Вариант 3</option>
+        </select>
+    </label>
+    <div class="checkboxes">
+        <label>
+            <input type="checkbox" name="hobby" value="sports">
+            Спорт
+        </label>
+
+        <label>
+            <input type="checkbox" name="hobby" value="music">
+            Музыка
+        </label>
+
+        <label>
+            <input type="checkbox" name="hobby" value="travel">
+            Путешествия
+        </label>
+    </div>
+    <div class="radios">
+        <label>
+            <input type="radio" name="gender" value="male">
+            Мужчина
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="female">
+            Женщина
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="other">
+            Другое
+        </label>
+    </div>
+    <button type="submit">Отправить</button>
+    <button type="reset">Сбросить</button>
+    <button type="button" id="extra-action">Доп. действие</button>
+</form>
+</body>
+</html>

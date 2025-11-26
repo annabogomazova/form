@@ -1,0 +1,78 @@
+form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 50px;
+  border-radius: 8px;
+  background: lightblue;
+  font-family: "Fira Code Medium", monospace;
+
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+
+    input[type="text"],
+    textarea,
+    select {
+      display: block;
+      max-width: 400px;
+      width: 100%;
+      margin-top: 6px;
+      padding: 10px 10px;
+      border-radius: 6px;
+      font-size: 15px;
+      border: 0.5px solid lightskyblue;
+    }
+  }
+
+  .checkboxes,
+  .radios {
+    margin: 20px 0;
+    padding: 12px 12px;
+    border-radius: 6px;
+    border: 1px solid deepskyblue;
+
+
+    label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-right: 12px;
+    }
+  }
+
+  .radios {
+    label {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+  }
+
+  button {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 14px;
+    color: white;
+  }
+  button[type="submit"] {
+    background-color: lightskyblue;
+  }
+  button[type="reset"] {
+    background-color: dodgerblue;
+  }
+  button[type="button"]{
+    background-color: blue;
+  }
+  button:hover{
+    color: black;
+    transition: 1s all;
+  }
+}
